@@ -1,6 +1,8 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import SITdb
 
 
 def index(request):
-    return render(request, 'sit_parser_app/index.html')
+    database = SITdb.objects.all()
+    return render(request, 'sit_parser_app/index.html', {'database': database})
+

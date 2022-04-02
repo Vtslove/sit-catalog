@@ -1,4 +1,7 @@
 from django.contrib import admin
-from .models import SITdb
+from .models import *
 
-admin.site.register(SITdb)
+QWERTY = SITdb,Phone,POSSESIONS,COMPUTER,CAMERA,SPORT,TOURISM,TOOLS,auto,TOYGOOFS,HOUSE,weather,appliances
+admin.site.register(QWERTY)
+
+

@@ -4,7 +4,7 @@
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredIdentifiers">
         <list>
-          <option value="sicatalog.parsers.managment.commands.parse_avito.parsers" />
+          <option value="main.admin.django" />
         </list>
       </option>
     </inspection_tool>
